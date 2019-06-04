@@ -42,7 +42,7 @@ public class HttpClientUtil {
 			// 设定请求的方法为"POST"，默认是GET
 			http.setRequestMethod("POST");
 			//设置http请求头
-//			http.setRequestProperty("Content-Type", "application/x-java-serialized-object");// 设定传送的内容类型是可序列化的java对象(如果不设此项,在传送序列化对象时,当WEB服务默认的不是这种类型时可能抛java.io.EOFException)
+			http.setRequestProperty("Content-Type", "application/json");// 设定传送的内容类型是可序列化的java对象(如果不设此项,在传送序列化对象时,当WEB服务默认的不是这种类型时可能抛java.io.EOFException)
 
 			// 连接，从上述url.openConnection()至此的配置必须要在connect之前完成
 			http.connect();

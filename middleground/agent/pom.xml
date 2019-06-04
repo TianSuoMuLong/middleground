@@ -10,23 +10,32 @@
 	</parent>
 	<artifactId>agent</artifactId>
 	<packaging>war</packaging>
-	
-	
+
+
 	<dependencies>
+		<!-- common_lib -->
 		<dependency>
 			<groupId>middleground</groupId>
 			<artifactId>common_lib</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
+		
+		<!-- 测试 begin -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 		</dependency>
-
+		<!-- 测试 end -->
+		
+		<!-- 日志相关 begin -->
+		<!-- 日志相关 end -->
+		
+		<!-- Spring begin -->
 		<dependency>
-			<groupId>org.apache.logging.log4j</groupId>
-			<artifactId>log4j-api</artifactId>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
 		</dependency>
+		<!-- Spring end -->
+		
 	</dependencies>
 </project>
