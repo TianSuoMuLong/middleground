@@ -92,16 +92,4 @@ public class HttpClientUtil {
 		}
 		return result; 
 	}
-	
-	
-	
-	
-	
-	
-	
-	//测试部分
-	public static void main(String[] args) throws Exception {
-		
-
-	}
 }
