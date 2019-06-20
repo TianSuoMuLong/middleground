@@ -1,4 +1,4 @@
-package com.common.http.util;
+package com.common.http.utils;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
