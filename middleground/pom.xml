@@ -1,6 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>middleground</groupId>
 	<artifactId>middleground</artifactId>
@@ -10,10 +9,11 @@
 	<!-- 子模块 -->
 	<modules>
 		<module>common_lib</module>
-		<module>inmanage</module>
-		<module>soa_base_sercvice</module>
-		<module>agent</module>
-	</modules>
+		<module>soa_base_service</module>
+    <module>innermanage</module>
+    <module>soa_innermanage_service</module>
+    <module>agent</module>
+  </modules>
 
 	<properties><!-- 定义属性 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -61,6 +61,7 @@
 			</dependency>
 
 			<!-- 三方工具包 end -->
+
 
 			<!-- Spring begin -->
 			<dependency>
